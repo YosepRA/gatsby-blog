@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import * as mainStyles from '../scss/main.module.scss';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Navbar bg="light" expand="lg" className={mainStyles.header}>
     <Container>
       <Navbar.Brand>
@@ -14,15 +14,15 @@ const Header = ({ siteTitle }) => (
         </Link>
       </Navbar.Brand>
 
-      {/* <Navbar.Toggle aria-controls="main-nav" />
+      <Navbar.Toggle aria-controls="main-nav" />
 
       <Navbar.Collapse id="main-nav">
         <Nav className="me-auto">
-          <Link to="/" className="nav-link">
-            Home
+          <Link to="/blog" className="nav-link">
+            Blog
           </Link>
         </Nav>
-      </Navbar.Collapse> */}
+      </Navbar.Collapse>
     </Container>
   </Navbar>
 );
