@@ -1,0 +1,13 @@
+$background-color: #ede0d4;
+$accent-color: #9c6644;
+$main-black: #0e0906;
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+
+@mixin Fredoka {
+  font-family: 'Fredoka One', 'Open Sans', sans-serif;
+}
+
+@mixin OpenSans {
+  font-family: 'Open Sans', sans-serif;
+}

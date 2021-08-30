@@ -1,0 +1,26 @@
+@import './config';
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: $background-color;
+
+  &-brand {
+    color: $main-black;
+    text-decoration: none;
+  }
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 1;
+  margin-top: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
